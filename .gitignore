@@ -1,0 +1,27 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Go
+**/vendor/
+**/*.exe
+**/*.test
+**/coverage.out
+
+# Node / Bun
+node_modules/
+.next/
+dist/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
